@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Radio Buttons</h3>
+    <p>Choose your Favourite Language</p>
+    <form action="">
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">Html</label> <br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label> <br />
+      <input type="radio" id="js" name="fav_language" value="javascript" />
+      <label for="js">Javascript</label><br />
+      <input type="submit" />
+    </form>
+
+    <h3>CheckBox</h3>
+    <p>Examples of CheckBox in forms</p>
+    <form action="">
+      <label for="pizza">Pizza</label>
+      <input type="checkbox" id="pizza" name="pizza" /> <br />
+      <label for="dosa">Dosa</label>
+      <input type="checkbox" id="dosa" name="dosa" /> <br />
+      <input type="submit" />
+    </form>
+
+     <label for="cars">Types of Cars</label>
+    <select name="brands" id="cars">
+      <option value="ford">Ford</option>
+      <option value="bmw">BMW</option>
+      <option value="ferrari">Ferrari</option>
+      <option value="thar">Thar</option>
+    </select>
+
+    <h3>Tables</h3>
+    <table border="1"  width="50%">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Class</th>
+          <th>Section</th>
+          <th>CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ankit</td>
+          <td>23</td>
+          <td>10</td>
+          <td>B</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Hemant</td>
+          <td>22</td>
+          <td>8</td>
+          <td>B</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Prince</td>
+          <td>20</td>
+          <td>12</td>
+          <td>A</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Piyush</td>
+          <td>5</td>
+          <td>3</td>
+          <td>A</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Tables using Rowspan and colspan</h3>
+    <table border="2" width="50%"">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Contact Number</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ankit</td>
+          <td>23</td>
+          <td colspan="2">88686843</td>
+        </tr>
+        <tr>
+          <td>Hemant</td>
+          <td rowspan="2">23</td>
+          <td colspan="2">99855522</td>
+        </tr>
+        <tr>
+          <td>Prince</td>
+          <td colspan="2">78444422</td>
+        </tr>
+         <tr>
+          <td>Piyush</td>
+          <td>20</td>
+          <td colspan="2">87778888</td>
+      </tbody>
+    </table>
+   
+  </body>
+</html>

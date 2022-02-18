@@ -1,0 +1,9 @@
+1. Alternate of <br> for giving space?
+-> Any Block level element can be used for giving space. Ex: <p></p>, <div></div>
+
+2. Difference between Checkbox and Radio in form?
+->In Radio, we can select only one option present whereas in case of Checkbox we can select more than one options present. 
+In radio, name should be same but in the case of checkbox names should be different.
+
+3. Colspan and Rowspan?
+-> When we apply colspan and rowspan, then we need to delete the data. If we dont delete the content than the content will become zig-zag.
